@@ -425,17 +425,17 @@
           <p class="lede">
             Estudo Ciência da Computação no IESB e trabalho na área de prevenção
             à fraude do <b>Banco de Brasília</b>, onde escrevo as automações que
-            o time usa todo dia para analisar transações de cartão e Pix.
+            o time usa todo dia para analisar transações.
           </p>
           <nav class="chips" aria-label="Contato">
-            <a class="chip" href="mailto:yurivsv77@gmail.com"
+            <a class="chip" href="mailto:yurivsv77@gmail.com" target="_blank"
               >yurivsv77@gmail.com</a
             >
-            <a class="chip" href="https://github.com/yvos77">GitHub</a>
-            <a class="chip" href="https://linkedin.com/in/yurivsv77/"
+            <a class="chip" href="https://github.com/yvos77" target="_blank">GitHub</a>
+            <a class="chip" href="https://linkedin.com/in/yurivsv77/" target="_blank"
               >LinkedIn</a
             >
-            <a class="chip" href="curriculo.pdf">Currículo (PDF)</a>
+            <a class="chip" href="curriculo.pdf" target="_blank">Currículo (PDF)</a>
           </nav>
         </div>
 
@@ -463,12 +463,9 @@
     <section>
       <div class="wrap">
         <p class="eyebrow">O que eu faço</p>
-        <h2>Escrevo software para entender dinheiro em movimento.</h2>
+        <h2>Analiso transações para descobrir onde o dinheiro não deveria estar passando.</h2>
         <p class="intro">
-          Fraude é um problema de dados: contas que se conectam de um jeito que
-          não deveria, valores que passam rápido demais por lugares que não
-          fazem sentido. Meu trabalho é transformar isso em código que responde
-          rápido.
+          No dia a dia da prevenção à fraude do BRB, investigo casos de transações suspeitas ou de possíveis golpes que possam ocorrer com nossos clientes, reconstruo a cadeia de transferências, mapeio o perfil de quem está por trás das contas e desenvolvo ferramentas que facilitam o trabalho.
         </p>
         <div class="cols">
           <div class="col">
@@ -488,15 +485,6 @@
               de comprovantes.
             </p>
           </div>
-          <div class="col">
-            <div class="rule"></div>
-            <h3>Meios de pagamento</h3>
-            <p>
-              Pix, cartão, TED, boleto e consignado — como cada um funciona,
-              onde falha e que rastro deixa quando é usado para fraude.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -507,19 +495,14 @@
         </p>
         <h2>O que construí no estágio</h2>
         <p class="intro">
-          Entrei para analisar casos e acabei escrevendo as ferramentas que o
-          time passou a usar. Estes são os quatro que ficaram em produção.
+          Entrei para analisar casos e automatizar processos. Após o início da utilização, o tempo de tratativa de cada caso reduziu considerávelmente. Estes são os quatro que ficaram em produção.
         </p>
 
         <div class="entry">
           <div class="tag">Extensão Chrome</div>
           <div>
             <p>
-              Analista de cartão preenchia a resposta de cada caso na mão,
-              repetindo dados que já estavam na tela. Fiz uma extensão em
-              Manifest V3 que captura esses dados do próprio sistema, guarda no
-              <code>chrome.storage</code> e monta a resposta padronizada. Passou
-              por homologação com a TI antes de chegar à equipe.
+              Analista de preenchia a resposta e as tabelas de cada caso na mão, repetindo dados que já estavam na tela. Fiz uma extensão em Manifest V3 que captura esses dados do próprio sistema, guarda no <code>chrome.storage</code> e devolve duas coisas: a resposta da análise já pronta para envio, preenchida de volta na tela, e em casos onde o analista precisa gerar um email, a extensão captura os dados e gera arquivos JSON e CSV (um de cada) que alimentam a automação de ofícios citada logo abaixo.
             </p>
             <span class="result">tratativa: 20 min → 5 min por caso</span>
           </div>
@@ -573,8 +556,7 @@
               Aplicação web mobile-first que reúne hinos do hinário da
               Congregação Cristã no Brasil e avulsos, com letra e cifra de
               violão alinhadas sílaba a sílaba. Busca por nome ou número e
-              camada de dados isolada, para trocar o JSON por PostgreSQL sem
-              reescrever a aplicação. Projeto pessoal, sem vínculo com a
+              camada de dados isolada. Projeto pessoal, sem vínculo com a
               instituição.
             </p>
             <div class="stack">
